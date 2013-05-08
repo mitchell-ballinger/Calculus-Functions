@@ -1,5 +1,5 @@
 ################################################################################
-##       Nth Order Polynomial			                                       ##
+##       Nth Order Polynomial			                                       
 ################################################################################
 ##	Author: Mitchell Ballinger
 ##	Date: May 8th, 2013
@@ -27,7 +27,7 @@
 POLY = [[1,1],[1,1],[1,1],[1,1],[1,1]]  
 
 #################################################################################
-##	Operation: derivative	Returns: Dictionary of Nth Specified derivatives    ##
+##	Operation: derivative	Returns: Dictionary of Nth Specified derivatives    
 #################################################################################
 ##	derivative matrix: 
 ##  	generates based on a fractional representation of coefficients
@@ -54,7 +54,7 @@ def nth_derivatives(P, N):
 	return values
 	
 #################################################################################
-##	Operation: Integration	Returns: Dictionary of Nth Specified Integrations   ##
+##	Operation: Integration	Returns: Dictionary of Nth Specified Integrations   
 #################################################################################
 ##	Integral matrix: 
 ##  	generates based on a fractional representation of coefficients
@@ -92,7 +92,7 @@ def nth_integrals(P, N):
 	return values
 
 #################################################################################
-##	Operation: Formatting for Display		                                    ##
+##	Operation: Formatting for Display		                                    
 #################################################################################	
 ## Display in Standard Polynomial Format ##
 def display(val):
@@ -109,7 +109,7 @@ def basis(P):
 	return formated_basis
 
 #################################################################################
-##	Operation: Function Calls					                                ##
+##	Operation: Function Calls					                                
 #################################################################################	
 ## Contains N derivatives of the Zeroth Function POLY ##
 display(nth_derivatives(POLY, N = 4))
